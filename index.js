@@ -45,5 +45,6 @@ const fs = require("fs")
 // console.log('success')
 // fs.unlinkSync('./content/iniaja.txt') // untuk hapus file
 // console.log(fs.existsSync("./content/ini.txt")) // untuk ngecek ada atau ngga pada sync
-fs.renameSync('./content/ini.txt', './content/foto/catetan.txt') // untuk ganti nama dan pindah file
+fs.renameSync('./content/ini.txt', './content/foto/catetan.txt') // untuk ganti nama dan pindah file dan untuk selebihnya bisa di lihat di fs node.js
+
 console.log('berhasil')
